@@ -7,6 +7,7 @@ mod dev_lock;
 pub mod drop_privileges;
 #[cfg(test)]
 mod integration_tests;
+pub mod load_wire_config;
 pub mod peer;
 
 #[cfg(any(target_os = "macos", target_os = "ios"))]

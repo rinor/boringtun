@@ -177,5 +177,7 @@ fn main() {
 
     tracing::info!("BoringTun started successfully");
 
+    device_handle.load_config();
+
     device_handle.wait();
 }
